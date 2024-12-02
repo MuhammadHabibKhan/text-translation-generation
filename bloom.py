@@ -18,7 +18,8 @@ generate_model.to(device)
 print("BLOOM model is on:", next(generate_model.parameters()).device)
 
 # Example input text in English for continuation
-input_text = "The spy infiltrated the enemy base to look for the secret documents"
+# input_text = "Today the city of Kansas was struck by a huge loss when their Mayor was assassinated after"
+input_text = "Alice stepped through the small doorway"
 
 # Tokenize input text
 inputs = generate_tokenizer(input_text, return_tensors="pt").to(device)
@@ -28,9 +29,9 @@ output_tokens = generate_model.generate(
     inputs["input_ids"], 
     max_length = 2048,
     do_sample = True,
-    temperature = 1.0, # higher more creative but less words
-    #top_k = 90, # top 70 percent relevant words only
-    #top_p = 0.8, # higher the value more creative and diverse
+    temperature = 1.0, # higher = more creative but less words maybe?
+    top_k = 90, # top 70 percent relevant words only
+    top_p = 0.8, # higher the value more creative and diverse
     num_beams = 3, # higher the value less diverse but longer as more sequences to explore
     no_repeat_ngram_size = 2, # room to repeat
     early_stopping = False
