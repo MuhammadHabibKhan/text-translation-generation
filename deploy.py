@@ -83,7 +83,7 @@ def translate_and_generate(
 # Create the Gradio interface
 with gr.Blocks() as demo:
 
-    gr.Markdown("## Text Translation with mBART & Generation with BLOOM 7b")
+    gr.Markdown("## Text Translation with mBART & Generation with BLOOM 3b")
 
     with gr.Row():
         gr.Image(value="./Banner.png")
