@@ -1,7 +1,7 @@
 ## Overview
 
-Project Name: Text Translation with mBART and Generation using BLOOM
-Associated with : Course BSCS-604 Natural Language Processing
+- Project Name: Multi-Language Translation and Generation System 
+- Associated with : Course BSCS-604 Natural Language Processing
 
 ## Model Details
 
