@@ -33,3 +33,8 @@ Intel Xeon E5-1680v4 | 32GB ECC DDR4 RAM | RTX 2060 6GB | Total GPU memory : 22G
 - This results in decreased performance and much slower computations overall.
 - On average, it takes around 245 seconds (4+ minutes) to get an output on my machine.
 - On the contrary, the smaller BLOOM-560m takes around 2.5GB of VRAM and produces an output within 20 seconds.
+
+## Example Run
+
+![image](https://github.com/user-attachments/assets/4dde269b-84f6-4f68-9aee-0fe6cea3f130)
+
