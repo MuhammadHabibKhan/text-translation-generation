@@ -33,4 +33,4 @@ Intel Xeon E5-1680v4 | 32GB ECC DDR4 RAM | RTX 2060 6GB | Total GPU memory : 22G
 - As my GPU has only 6GB of VRAM, CUDA uses the unified memory from the system.
 - This results in decreased performance and much slower computations.
 - On average, it takes around 245 seconds (4+ minutes) to get an output on my machine.
-- On the contrast, the vanilla BLOOM-560m takes around 2.5GB VRAM and outputs within 20 seconds.
+- On the contrary, the vanilla BLOOM-560m takes around 2.5GB VRAM and outputs within 20 seconds.
